@@ -1,0 +1,36 @@
+.card{
+  width: 50% !important;
+  /* height: 70%; */
+  border-radius: 15px;
+  color: #BA68C8;
+  /* background: linear-gradient(#101037, #9198e5); */
+}
+h3{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.btn{
+  background-color: #BA68C8 !important;
+  color: white;
+}
+.form-select:focus,.form-control:focus,.form-check-input:focus {
+  outline: none !important;
+  border-color: #BA68C8 !important;
+  box-shadow: 0 0 0px #BA68C8 !important;
+}
+.form-control:hover,.form-check-input:hover{
+  box-shadow: 0 0 15px #BA68C8 !important;
+  transition: all 0.3s ease-in-out;
+}
+::placeholder{
+  font-size: 12px;
+}
+@media (max-width: 700px) {
+  .card{
+    width: 85% !important;
+    margin-top: 3px !important;
+  }
+  .d-flex{
+    flex-direction: column-reverse;
+  }
+}

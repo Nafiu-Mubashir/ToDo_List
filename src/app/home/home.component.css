@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.d-flex{
+  width: 90%;
+  margin: auto;
+}
+.btn{
+  background-color: #BA68C8 !important;
+  color: white;
+}
+h3{
+  font-size: 30px;
+}
+p{
+  line-height: 30px;
+  text-align: justify;
+}
+img{
+  width: 75%;
+  height: 100%;
+  margin-left: 10px;
+}
+.fa-twitter-square{
+  cursor: pointer;
+  font-size: 2em;
+  color: lightgrey;
+}
+.fa-facebook-square{
+  cursor: pointer;
+  font-size: 2em;
+  color: lightgrey;
+}
+.fa-instagram{
+  cursor: pointer;
+  font-size: 2em;
+  color: lightgrey;
+}
+.fa-youtube{
+  cursor: pointer;
+  font-size: 2em;
+  color: lightgrey;
+}
+.fa-whatsapp-square{
+  cursor: pointer;
+  font-size: 2em;
+  color: lightgrey;
+}
+.fa-twitter-square,.fa-facebook-square,.fa-instagram,.fa-youtube,.fa-whatsapp-square:hover{
+  color: white;
+}
+@media (max-width: 700px) {
+  div{
+    padding: 1em !important;
+  }
+  img{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0px;
+  }
+  .d-flex{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .hi{
+    display: none;
+  }
+  p{
+    line-height: normal;
+    text-align: justify;
+  }
+  .icons{
+    width: 100% !important;
+  }
+  /* .fa-twitter-square{
+    cursor: pointer;
+    font-size: 2em;
+    color: #BA68C8;
+  }
+  .fa-facebook-square{
+    cursor: pointer;
+    font-size: 2em;
+    color: #BA68C8;
+  }
+  .fa-instagram{
+    cursor: pointer;
+    font-size: 2em;
+    color: #BA68C8;
+  } */
+}
