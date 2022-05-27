@@ -12,6 +12,7 @@ import { UserTodoComponent } from './user-todo/user-todo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatButtonModule } from "@angular/material/button";
 import {MatCardModule} from '@angular/material/card';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatCardModule} from '@angular/material/card';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

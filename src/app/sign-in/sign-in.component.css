@@ -1,0 +1,46 @@
+.card{
+  width: 40% !important;
+  /* height: 70%; */
+  border-radius: 15px;
+  color: #BA68C8;
+  /* background: linear-gradient(#101037, #9198e5); */
+  margin-top: 130px !important;
+}
+h3{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.btn{
+  background-color: #BA68C8 !important;
+  color: white;
+}
+.form-select:focus,.form-control:focus,.form-check-input:focus,button:focus {
+  outline: none !important;
+  border-color: #BA68C8 !important;
+  box-shadow: 0 0 0px #BA68C8 !important;
+}
+.form-control, .form-check-input{
+  border-color: #BA68C8 !important;
+}
+.form-control:hover,.form-check-input:hover,button:hover{
+  box-shadow: 0 0 15px #BA68C8 !important;
+  transition: all 0.3s ease-in-out;
+}
+.link-success, label, .acct{
+  color: #BA68C8 !important;
+  text-decoration: none;
+  font-size: 12px;
+}
+::placeholder{
+  font-size: 12px;
+  color: #BA68C8;
+}
+@media (max-width: 700px) {
+  .card{
+    width: 85% !important;
+    margin-top: 3px !important;
+  }
+  .d-flex{
+    flex-direction: column-reverse;
+  }
+}

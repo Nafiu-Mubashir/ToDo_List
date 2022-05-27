@@ -24,27 +24,27 @@ img{
 }
 .fa-twitter-square{
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.5em;
   color: lightgrey;
 }
 .fa-facebook-square{
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.5em;
   color: lightgrey;
 }
 .fa-instagram{
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.5em;
   color: lightgrey;
 }
 .fa-youtube{
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.5em;
   color: lightgrey;
 }
 .fa-whatsapp-square{
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.5em;
   color: lightgrey;
 }
 .fa-twitter-square,.fa-facebook-square,.fa-instagram,.fa-youtube,.fa-whatsapp-square:hover{
